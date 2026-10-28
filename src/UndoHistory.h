@@ -8,6 +8,8 @@
 #ifndef UNDOHISTORY_H
 #define UNDOHISTORY_H
 
+#include <cstdint>
+
 namespace Scintilla::Internal {
 
 // ScaledVector is a vector of unsigned integers that uses elements sized to hold the largest value.
